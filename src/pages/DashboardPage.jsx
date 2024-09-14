@@ -50,7 +50,7 @@ const DashboardPage = () => {
 
 				<div className='mt-6 text-center text-gray-400 text-sm hidden'>
 
-					<Toggle />
+					{/* <Toggle /> */}
 				</div>
 			</motion.div>
 

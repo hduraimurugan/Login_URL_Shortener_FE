@@ -70,6 +70,7 @@ const InputForm = () => {
             p="6"
             rounded="2xl"
             bg="dark"
+            color="white"
             className={ styles.mainContainer } >
             <FormControl isInvalid={ isError }>
                 <FormLabel >Convert long URLs into shortened versions with a single click.</FormLabel>
