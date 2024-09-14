@@ -4,7 +4,8 @@ import { useParams } from 'react-router-dom';
 
 export default function ShortUrlRedirect() {
   const { urlCode } = useParams();
-  const serverBaseUrl = import.meta.env.VITE_APP_URI;
+  // const serverBaseUrl = import.meta.env.VITE_APP_URI;
+  const serverBaseUrl = 'https://login-url-shortner-be.onrender.com';
 
   const redirect = () => {
     let url = (serverBaseUrl + `/${urlCode}`);

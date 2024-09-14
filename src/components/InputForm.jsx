@@ -27,7 +27,7 @@ const InputForm = () => {
     const [ isError, setIsError ] = useState(false);
     const { hasCopied, onCopy } = useClipboard(url);
 
-    const clientBaseUrl = window.location.href;
+    const clientBaseUrl = 'https://login-url-shortner-be.onrender.com/';
 
     const handleInputChange = (e) => {
         const { id, value } = e.target;
@@ -46,7 +46,7 @@ const InputForm = () => {
             return;
         }
         setIsloading(true);
-        axios.post('http://localhost:5000/api/url/shorten', input).then(res => {
+        axios.post('https://login-url-shortner-be.onrender.com/api/url/shorten', input).then(res => {
             if (res.status) {
                 let data = res.data;
                 let createUrl = clientBaseUrl + data.urlCode;
