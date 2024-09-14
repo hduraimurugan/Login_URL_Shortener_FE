@@ -14,7 +14,7 @@ This is the frontend of a URL shortener application with user authentication, bu
 
 ## Demo
 
-[Demo Link](https://login-url-shortener-fe.vercel.app/) (Include this if you have a live version hosted)
+[Demo Link](https://url-shortene.vercel.app/login) (Include this if you have a live version hosted)
 
 ## Technologies Used
 
