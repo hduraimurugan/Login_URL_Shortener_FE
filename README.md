@@ -1,8 +1,4 @@
-I see that you're referring to your own GitHub repository: [Login_URL_Shortener_FE](https://github.com/hduraimurugan/Login_URL_Shortener_FE).
 
-Here's an updated version of the README, tailored for your project:
-
----
 
 # Login URL Shortener Frontend
 
