@@ -1,0 +1,23 @@
+/* @media query for max 1200px */
+@media screen and (max-width: 1200px) {
+
+    .mainContainer {
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .InputGroup {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .BaseUrlAddon {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .InputGroup input {
+        width: 100% !important;
+    }
+}
