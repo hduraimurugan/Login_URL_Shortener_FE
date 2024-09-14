@@ -84,7 +84,6 @@ axios.create({
 
 ## Future Enhancements
 
-- **Password Reset**: Add functionality to allow users to reset their passwords.
 - **Custom URLs**: Allow users to create custom shortened URLs.
 - **Analytics**: Add tracking for clicks and user activity.
 
